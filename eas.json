@@ -1,0 +1,34 @@
+{
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "deine.apple.id@example.com",
+        "ascAppId": "DEINE_APP_STORE_CONNECT_ID",
+        "appleTeamId": "DEIN_APPLE_TEAM_ID"
+      }
+    }
+  }
+}
